@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		75EAEA2F1C089F37000B9322 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAEA2E1C089F37000B9322 /* main.m */; };
+		75EAEA371C089F54000B9322 /* CREnumHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAEA361C089F54000B9322 /* CREnumHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		75EAEA2B1C089F37000B9322 /* EnumToString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EnumToString; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EAEA2E1C089F37000B9322 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75EAEA351C089F54000B9322 /* CREnumHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CREnumHelper.h; sourceTree = "<group>"; };
+		75EAEA361C089F54000B9322 /* CREnumHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CREnumHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				75EAEA2E1C089F37000B9322 /* main.m */,
+				75EAEA351C089F54000B9322 /* CREnumHelper.h */,
+				75EAEA361C089F54000B9322 /* CREnumHelper.m */,
 			);
 			path = EnumToString;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EAEA2F1C089F37000B9322 /* main.m in Sources */,
+				75EAEA371C089F54000B9322 /* CREnumHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
